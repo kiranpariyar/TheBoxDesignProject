@@ -1,0 +1,160 @@
+.wrapper{
+	width: 100%;
+	margin: auto;
+	/*background-color: #000000;*/
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+
+.header-slider-wrapper{
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+
+.header-wrapper{
+	width: 100%;
+	background-color: transparent;
+	margin: auto;
+	position: absolute;
+	z-index: 1;
+	top:30px;
+}
+
+
+.creativeimage-wrapper{
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	top: 550px;
+	z-index: 2;
+}
+
+.header-section{
+	max-width: 120em;
+	margin: auto;
+}
+
+
+.header-content{
+	/*width: 1170px;*/
+	width: 60.9375%;
+	padding: 0px 15px;
+	margin: auto;
+	background-color: transparent;
+
+}
+
+.slider-wrapper{
+	width: 100%;
+	margin: auto;
+}
+
+.slider-section{
+	/*max-width: 120em;*/
+	width: 100%;
+	margin: auto;
+	background-color: #3c3141;
+}
+
+
+.service-wrapper{
+	width: 100%;
+	margin: auto;
+}
+
+.service-section{
+	max-width: 120em;
+	margin: auto;
+	/*height: 519px;*/
+	/*border: 1px solid red;*/
+	background-color: #ffffff;
+	padding-top: 100px;
+	padding-bottom: 42px; 
+}
+
+.service-contents{
+	width: 62.5%;
+	margin: auto;
+}
+
+.services{
+	width: 30.333333333%;
+	padding: 0px 18px;
+	float: left;
+	/*background-color: #acdedf;*/
+}
+
+.info-wrapper{
+	width: 100%;
+	margin: auto;
+	background-color: #e36968;
+}
+
+
+.info-section{
+	max-width: 120em;
+	margin: auto;
+	/*background-color: #e36968; */
+}
+
+.info-contents{
+	width: 62.5%;
+	margin: auto;
+}
+
+.purchasenow-wrapper{
+	width: 100%;
+	margin: auto;
+}
+
+.purchasenow-section{
+	max-width: 100%;
+	/*max-width: 120em;*/
+	margin: auto;
+	background-color: #4e449a; 
+}
+
+.sales-wrapper{
+	width: 100%;
+	margin: auto;
+}
+
+.sales-section{
+	max-width: 120em;
+	margin: auto;
+	background-color: #2b2b33; 
+	/*height: 300px;*/
+	/*border: 1px solid blue;*/
+}
+
+.footer-wrapper{
+	width: 100%;
+	margin: auto;
+	background-color: #1a1c28;
+}
+
+.footer-section{
+	max-width: 120em;
+	margin: auto;
+	/*height: 691px;*/
+	background-color: #1a1c28;
+}
+
+.main-footer{
+	width: 62.5%;
+	margin: auto;
+	/*background-color: red;*/
+}
+
+.footer-content{
+	width: 22.5%;
+	padding:0px 15px;
+	float: left;
+	/*background-color: blue;*/
+}
+

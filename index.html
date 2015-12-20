@@ -1,0 +1,593 @@
+<html>
+    <head>
+        <title>the Box design</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="fonts/Lato-Black.ttf">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/layout.css"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="fonts/PlayfairDisplay-Regular.otf"> 
+        <link rel="stylesheet" type="text/css" href="fonts/raleway_thin.otf">
+
+
+    </head>
+    
+    <body>
+        
+        <div class="wrapper">  
+            <div class="header-slider-wrapper">
+                <div class="header-wrapper">
+                    <div class="header-section">
+                        <div class="header-content">
+                            <div class="logo">
+                                <img src="images/logotop.png" alt="logo">
+                            </div>
+
+                            <div class="headermenu-div">
+                                <div class="header-menu">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Page</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Shop</a></li>
+                                        <li><a href="#">Travel</a></li>
+                                        <li><a href="#">Shortcodes</a></li>
+                                        <li><a href="#">Features</a></li>
+                                        <li><a href="#">Contact</a></li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="search-div">
+                                    <img src="images/searchimage.png" alt="">
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                </div>    
+
+                <div class="slider-wrapper">    
+                    <div class="slider-section">
+                        <div class="slider">
+                            <div class="slider-long">
+                                <!-- <div class="slider-image">
+                                    <img src="images/background.png" alt="">
+                                </div>     -->
+                                <div class="slider-image">
+                                    <img src="images/creative-person.jpg" alt="">
+                                </div>
+                                <div class="slider-image">
+                                    <img src="images/creative-leaf.jpg" alt="">
+                                 </div>
+
+                                 <div class="slider-image">
+                                     <img src="images/maxresdefault.jpg">
+                                 </div>    
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="creativeimage-wrapper">
+                    <div class="arrow-left" id="previous" onclick="previous()">
+                        &#10092;
+                    </div>
+
+                    <div class="creativeimage-div">
+                        <img src="images/creativeimage.png" alt="creativeimage">
+                    </div>
+
+                    <div class="arrow-right" id="next" onclick="next()">
+                        &#10093;
+                    </div>
+                </div>
+             </div>
+
+            <div class="service-wrapper">
+                <div class="service-section">
+                    <div class="service-contents clearfix">
+                        <div class="services">
+                            <div class="service-heading-section clearfix">
+                                <span class="service-icon"><img src="images/teamprofile.png"></span>
+
+                                <div class="service-heading">
+                                    <h2>CREATIVE TEAM PROFILE</h2>
+                                </div>    
+                            </div>
+
+                            <div class="service-detail">
+                               <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo>eros, pellentesque a metus non. mattis volutpat libero. Prae-sent ornare felis ante, sit amet porta.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="services">
+                            <div class="service-heading-section clearfix">
+                                <span class="service-icon"><img src="images/portfolio.png"></span>
+
+                                <div class="service-heading">
+                                    <h2>AMAZING PORTFOLIO</h2>
+                                </div>    
+                            </div>
+
+                            <div class="service-detail">
+                                 <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo>eros, pellentesque a metus non. mattis volutpat libero. Prae-sent ornare felis ante, sit amet porta.</p>
+                            </div>
+                        </div>
+                        <div class="services">
+                            <div class="service-heading-section clearfix">
+                                <span class="service-icon"><img src="images/blogdesign.png"></span>
+
+                                <div class="service-heading">
+                                    <h2>GREAT BLOG DESIGN</h2>
+                                </div>    
+                            </div>
+
+                            <div class="service-detail">
+                                 <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo>eros, pellentesque a metus non. mattis volutpat libero. Prae-sent ornare felis ante, sit amet porta.</p>
+                            </div>
+                        </div>
+                        <div class="services">
+                            <div class="service-heading-section clearfix">
+                                <span class="service-icon"><img src="images/support.png"></span>
+
+                                <div class="service-heading">
+                                    <h2>AWESOME SUPPORT SERVICES</h2>
+                                </div>    
+                            </div>
+
+                            <div class="service-detail">
+                                <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo>eros, pellentesque a metus non. mattis volutpat libero. Prae-sent ornare felis ante, sit amet porta.</p>
+                            </div>
+                        </div>
+                        <div class="services">
+                            <div class="service-heading-section clearfix">
+                                <span class="service-icon"><img src="images/setting.png"></span>
+
+                                <div class="service-heading">
+                                    <h2>EASY TO CUSTOMIZE</h2>
+                                </div>    
+                            </div>
+
+                            <div class="service-detail">
+                                 <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo>eros, pellentesque a metus non. mattis volutpat libero. Prae-sent ornare felis ante, sit amet porta.</p>
+                            </div>
+                        </div>
+                        <div class="services">
+                            <div class="service-heading-section clearfix">
+                                <span class="service-icon"><img src="images/shortcodes.png"></span>
+
+                                <div class="service-heading">
+                                    <h2>FULL SHORTCODES READY</h2>
+                                </div>    
+                            </div>
+
+                            <div class="service-detail">
+                                 <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo>eros, pellentesque a metus non. mattis volutpat libero. Prae-sent ornare felis ante, sit amet porta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="info-wrapper">
+                <div class="info-section">
+                    <div class="info-contents clearfix"> 
+                        <div class="infos">
+                            <div class="info-values">79,000</div>
+                            <div class="info-type">PURCHASES</div>
+                        </div>
+
+                        <div class="infos">
+                            <div class="info-values">754</div>
+                            <div class="info-type">FEATURES ADDED</div>
+                        </div>
+
+                        <div class="infos">
+                            <div class="info-values">4,000</div>
+                            <div class="info-type">TICKETS ANSWERED</div>
+                        </div>
+                
+                        <div class="infos">
+                            <div class="info-values">1,000</div>
+                            <div class="info-type">YOUTUBE SUBSCRIBERS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="purchasenow-wrapper">
+                <div class="purchasenow-section">
+                    <div class="purchasenow-contents clearfix">
+                        <div class="purchase-now">
+                            <div class="unlimited-colors">
+                                <div class="purchasenow-heading">
+                                    <h2>UNLIMITED COLORS</h2>    
+                                </div>
+                                
+                                <div class="purchasenow-paragraph">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
+                                </div>
+                                
+                                <div class="purchasenow-button">
+                                    <a href="#">PURCHASE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="purchase-now">
+                            <div class="customizable">
+                                <div class="purchasenow-heading">
+                                    <h2>EXTREAMLY CUSTOMIZABLE</h2>    
+                                </div>
+                                
+                                <div class="purchasenow-paragraph">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
+                                </div>
+                                
+                                <div class="purchasenow-button">
+                                    <a href="#">PURCHASE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="purchase-now">
+                            <div class="paralax-background">
+                                <div class="purchasenow-heading">
+                                    <h2>PARALAX BACKGROUND SECTION</h2>    
+                                </div>
+                                
+                                <div class="purchasenow-paragraph">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
+                                </div>
+                                
+                                <div class="purchasenow-button">
+                                    <a href="#">PURCHASE NOW</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>        
+                </div>	
+            </div>    
+
+            <div class="sales-wrapper">
+            	<div class="sales-section">
+                    <div class="sales-content">
+                        <div class="creative-site">
+                            <div class="large-heading">
+                                Need To Grow <strong>Your Creative</strong> Site
+                            </div>
+
+                            <div class="small-heading"> 
+                                Convert Visitors into Customers And Generate More Sales
+                            </div>
+
+                            <div class="purchase-link">
+                                <a href="#">PURCHASE</a>
+                            </div>
+
+                        </div>
+                    </div>
+            	</div>
+                <div class="sales-galary">
+                    <img src="images/sales.png" alt="sales">
+                </div>
+            </div>    
+
+            <div class="footer-wrapper">
+            	<div class="footer-section">
+                    <div class="main-footer clearfix">
+                         <div class="footer-content">
+                            <div class="thebox-info">
+                                <div class="thebox-logo">
+                                    <img src="images/logo.png" alt="logo">
+                                 </div>
+
+                                 <div class="detail-info">
+                                     
+                                     <p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris.
+                                     </p>
+                                     <br/>
+                                     <p>
+                                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.       
+                                     </p>   
+
+                                 </div>
+
+                                 <div class="read-more">
+                                     <a href="#"><img src="images/readmore.png"></a>
+                                 </div>
+
+                                 <div class="followus clearfix">
+                                     <div class="followus-left">
+                                         <ul>
+                                            <li>
+                                                <div class="followus-info clearfix">
+                                                    <div class="followus-image">
+                                                        <img src="images/subscribe.png">
+                                                    </div>
+
+                                                    <div class="followus-on">
+                                                        <div class="followus-heading">
+                                                            Subscribe
+                                                        </div>
+
+                                                        <div class="followus-medium">
+                                                            to RSS Feed
+                                                        </div>
+                                                    </div>
+                                                </div>    
+                                            </li>
+
+                                             <li>
+                                                <div class="followus-info clearfix">
+                                                    <div class="followus-image">
+                                                        <img src="images/findus.png">
+                                                    </div>
+
+                                                    <div class="followus-on">
+                                                        <div class="followus-heading">
+                                                            Find Us
+                                                        </div>
+
+                                                        <div class="followus-medium">
+                                                            on Facebook
+                                                        </div>
+                                                    </div>
+                                                </div>    
+                                            </li>
+
+                                             <li>
+                                                <div class="followus-info clearfix">
+                                                    <div class="followus-image">
+                                                        <img src="images/piterest.png">
+                                                    </div>
+
+                                                    <div class="followus-on">
+                                                        <div class="followus-heading">
+                                                            Follow Us
+                                                        </div>
+
+                                                        <div class="followus-medium">
+                                                            on Pinterest
+                                                        </div>
+                                                    </div>
+                                                </div>    
+                                            </li>
+
+                                         </ul>
+                                     </div>
+
+                                     <div class="followus-right">
+                                          <ul>
+                                            <li>
+                                                <div class="followus-info clearfix">
+                                                    <div class="followus-image">
+                                                        <img src="images/twitter.png">
+                                                    </div>
+
+                                                    <div class="followus-on">
+                                                        <div class="followus-heading">
+                                                            Follow Us
+                                                        </div>
+
+                                                        <div class="followus-medium">
+                                                            on Twitter
+                                                        </div>
+                                                    </div>
+                                                </div>    
+                                            </li>
+
+                                             <li>
+                                                <div class="followus-info clearfix">
+                                                    <div class="followus-image">
+                                                        <img src="images/google+.png">
+                                                    </div>
+
+                                                    <div class="followus-on">
+                                                        <div class="followus-heading">
+                                                            Follow Us
+                                                        </div>
+
+                                                        <div class="followus-medium">
+                                                            on Google +
+                                                        </div>
+                                                    </div>
+                                                </div>    
+                                            </li>
+
+                                             <li>
+                                                <div class="followus-info clearfix">
+                                                    <div class="followus-image">
+                                                        <img src="images/dribbble.png">
+                                                    </div>
+
+                                                    <div class="followus-on">
+                                                        <div class="followus-heading">
+                                                            Follow Us
+                                                        </div>
+
+                                                        <div class="followus-medium">
+                                                            on Dribbble
+                                                        </div>
+                                                    </div>
+                                                </div>    
+                                            </li>
+
+                                         </ul>
+
+                                     </div>
+                                 </div>
+                            </div>
+                         </div>
+
+                         <div class="footer-content">
+                             <div class="latest-news">
+                                <div class="latestnews-heading">
+                                    Latest News
+                                </div>
+
+                                <div class="latestnews-list">
+                                    <ul>
+                                        <li>
+                                            <div class="latestnews-content clearfix">
+                                                <div class="latestnews-image">
+                                                    <img src="images/camera.png" alt="camera">
+                                                </div>
+
+                                                <div class="latestnews-info">
+                                                    <div class="latestnews-title">
+                                                        Your Title Blog Here
+                                                    </div>
+
+                                                    <div class="latestnews-detail">
+                                                        <p>Phasellus ut congimentum diam,eget tempus lorem.Morbi biben-
+                                                        dum est quis qrcu...</p>
+                                                        <p class="date">21 December, 2017</p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </li>
+
+                                        <li>
+                                            <div class="latestnews-content clearfix">
+                                                <div class="latestnews-image">
+                                                    <img src="images/plus.png" alt="camera">
+                                                </div>
+
+                                                <div class="latestnews-info">
+                                                    <div class="latestnews-title">
+                                                        Your Title Blog Here
+                                                    </div>
+
+                                                    <div class="latestnews-detail">
+                                                        <p>Phasellus ut congimentum diam,eget tempus lorem.Morbi biben-
+                                                        dum est quis qrcu...</p>
+                                                        <p class="date">21 December, 2017</p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </li>
+
+                                        <li>
+                                            <div class="latestnews-content clearfix border-none">
+                                                <div class="latestnews-image">
+                                                    <img src="images/bloghere.png" alt="camera">
+                                                </div>
+
+                                                <div class="latestnews-info">
+                                                    <div class="latestnews-title">
+                                                        Your Title Blog Here
+                                                    </div>
+
+                                                    <div class="latestnews-detail">
+                                                        <p>Phasellus ut congimentum diam,eget tempus lorem.Morbi biben-
+                                                        dum est quis qrcu...</p>
+                                                        <p class="date">21 December, 2017</p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </li>
+
+                                    </ul>
+                                </div>
+                             </div>
+                         </div>
+
+                         <div class="footer-content">
+                             <div class="tags-widgets">
+                                <div class="tagswidgets-heading">Tags Widget</div>
+                                <div class="widgets-links">
+                                    <ul class="clearfix">
+                                        <li><a href="#">awesome</a></li>
+                                        <li><a href="#">beautiful</a></li>    
+                                        <li><a href="#">flat design</a></li>    
+                                    </ul>
+
+                                    <ul class="clearfix">
+                                        <li><a href="#">ios</a></li>   
+                                        <li><a href="#">themforest</a></li>
+                                        <li><a href="#">mass</a></li>
+                                        
+                                    </ul>
+                                </div>
+                             </div>
+
+                             <div class="usefullink-content">
+                                <div class="usefullink-heading">Useful Links</div>    
+                                <div class="useful-links">
+                                    <ul>
+                                        <li><a href="#">Web Design Resource</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Download Center</a></li>
+                                        <li><a href="#">User Account</a></li>
+                                        <li><a href="#">Support Forum</a></li>
+                                        <li class="border-none"><a href="#">Shortcodes Page Ready</a></li>
+                                    </ul>
+                                </div>
+
+                             </div>
+                         </div>
+
+                         <div class="footer-content">
+                             <div class="contact-info">
+                                <div class="contactinfo-heading">
+                                    Contact Info
+                                </div>
+
+                                <div class="contactinfo-list">
+                                    <ul>
+                                        <li>
+                                            <div class="contactinfo-content">
+                                                <p class="title">One Office</p>
+                                                <p>164 Nguyen Xi, Binh Thanh, Ho Chi Minh,</p>
+                                                <p>Vietam</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="contactinfo-content">
+                                                <p class="title">Office Two</p>
+                                                <p>31-33B Tan Thuan St, Tan Thaun EZ, East Tan Thau Ward 11,District 7,Ho chi Mihn</p>
+                                                <p>City,Vietam</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="contactinfo-content">
+                                                <p class="title">Phone Number</p>
+                                                <p>+84 935 815 989</p>
+                                                <p>+84 935 150 192</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="contactinfo-content">
+                                                <p class="title">Email Address</p>
+                                                <p>tranmautritam@gmail.com</p>
+                                                <p>thingocbich_dang@gmail.com</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                             </div>
+                         </div>   
+
+                    </div>
+            	</div>
+            </div>    
+        </div>
+
+        <!--<script type="text/javascript" src="js/animator.js"></script>
+        <script type="text/javascript" src="js/slider.js"></script>-->
+        <script type="text/javascript" src="js/animation.js"></script>
+        <script type="text/javascript" src="js/slider.js"></script>
+
+        
+    </body>
+</html>
