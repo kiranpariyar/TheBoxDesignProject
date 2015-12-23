@@ -1,0 +1,180 @@
+@media (max-width:1382px) {
+	
+	.header-menu{
+		float: left;
+		padding-top: 12px;
+		padding-bottom: 6px;
+	}
+
+	.header-menu ul li{
+		display: inline-block;
+		padding: 0px 4px;
+	}
+
+	.header-menu ul li a{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		color: #ffffff;
+		font-size: 12px;
+		/*padding: 8px 9px 9px 11px;*/
+		padding: 6px;
+		font-family: Lato;
+		font-weight: bold;
+		border:1px solid transparent;
+	}
+
+	.search-div{
+		padding-top:14px; 
+	}
+
+	.services{
+		width: 46.25%;
+		padding: 0px 11px;
+	}
+
+	.service-heading{
+		font-size: 12px; 
+		padding-left: 15px;
+	}
+
+	.service-detail{
+		font-size: 12px;
+	}
+
+	.info-values{
+		font-family: Lato;
+		font-size: 25px;
+		letter-spacing: 4px;
+		color: #ffffff;
+		padding-top: 7px; 
+		padding-bottom:3px; 
+	}
+
+	.info-type{
+		font-family: Lato;
+		font-size: 12px;
+		letter-spacing: 2px;
+		color: #ffffff;
+		font-weight: bold;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+
+	.purchasenow-heading{
+		padding:14px 0px;
+		font-family: Lato;
+		font-size: 14px;
+		font-weight: 700; 
+	}
+
+	.purchasenow-paragraph p{
+		line-height: 18px;
+		font-family: Lato;
+		font-size: 12px;
+		font-weight: 700;
+	}
+
+	.purchasenow-button{
+		font-family: Lato;
+		font-size: 14px; 
+		padding: 25px 0px;
+	}
+
+	.purchasenow-button a{
+		border: 2px solid #ffffff;
+		padding: 14px 20px;
+		line-height: 40px;
+		color: #ffffff;
+		text-decoration: none;
+		border-radius:3px;
+		font-family: Lato;
+		font-weight: bold;
+	}
+
+	.footer-content{
+		width: 45%;
+	}
+
+	.thebox-info{
+		padding: 40px 0px;
+	}
+
+	.thebox-logo{
+		padding: 18px 0px;
+	}
+
+	.detail-info p{
+		line-height: 18px;
+		color: #676e78;
+		font-size: 12px;
+	}
+
+	.read-more{
+		padding: 18px 0px 24px 0px;
+		border-bottom: 1px solid #25323b;
+	}
+
+	.followus{
+		padding: 10px 0px;
+	}
+
+	.followus-info{
+		padding: 10px 0px;
+	}
+
+
+	.followus-on{
+		float: left;
+		padding-left:6px; 
+	}
+
+	.followus-heading{
+		font-size: 12px;
+	}
+
+	.followus-medium{
+		font-size: 10px;
+		color: #a0b4bd;
+	}
+
+
+	.latest-news{
+		padding: 62px 0px;
+	}
+
+	.latestnews-heading{
+		font-family: Lato;
+		font-weight: lighter;
+		font-size: 18px;
+		color: #feffff;
+		padding: 12px 0px;
+		}
+
+	.latestnews-content{
+		padding: 12px 0px;
+	}
+
+	.latestnews-info{
+		width: 74.074074074%;
+		float: right;
+		padding-left: 10px;
+	}
+
+	.latestnews-title{
+		font-size: 12px;
+		padding-bottom: 6px;
+	}
+
+	.latestnews-detail p{
+		line-height: 18px;
+		color: #676e78;
+		font-size: 12px;
+	}
+
+	.latestnews-detail .date{
+		color: #a6b0ba;
+		font-size: 12px;
+	}
+
+}

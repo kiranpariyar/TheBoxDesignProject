@@ -1,0 +1,18 @@
+@media (max-width:480px) {
+	
+	.services{
+		width: 87%;
+	}
+
+	.infos{
+		width: 50%;
+	}
+
+	.purchase-now{
+		width: 100%;
+	}
+
+	.footer-content{
+		width: 89%;
+	}
+}
