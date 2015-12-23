@@ -32,7 +32,7 @@
 	color: #ffffff;
 	font-size: 15px;
 	/*padding: 8px 9px 9px 11px;*/
-	padding: 6px 9px 9px 8px;
+	padding: 6px 9px 6px 8px;
 	font-family: Lato;
 	font-weight: bold;
 	border:1px solid transparent;
@@ -82,11 +82,11 @@
 }
 
 .slider-long{
-	width: 7680px;
+	width: 300%;
 }
 
 .slider-image{
-	width: 25%;
+	width: 33.333333333%;
 	float: left;
 }
 
@@ -99,9 +99,15 @@
 	float: left;
 }
 
+.service-icon img{
+	width: 100%;
+	height: auto;
+}
+
 .service-heading{
 	float: left;
 	font-family: Lato;
+	letter-spacing: 2px;
 	font-weight: bold;
 	font-size: 15px;
 	padding: 15px 0px 10px 21px;
@@ -132,8 +138,9 @@
 }
 
 .info-values{
-	font-family: 'Lato';
+	font-family: Lato;
 	font-size: 37px;
+	letter-spacing: 6px;
 	color: #ffffff;
 	padding-top: 7px; 
 	padding-bottom:3px; 
@@ -143,6 +150,7 @@
 .info-type{
 	font-family: Lato;
 	font-size: 15px;
+	letter-spacing: 2px;
 	color: #ffffff;
 	font-weight: bold;
 	padding-top: 7px;
@@ -164,19 +172,16 @@
 .unlimited-colors{
 	padding: 63px 81px 27px 81px;
 	background-color: #4e449a;
-	height: inherit;
 }
 
 .customizable{
 	padding: 63px 81px 27px 81px;
 	background-color: #63d9ff;
-	height: inherit;
 }
 
 .paralax-background{
 	padding: 63px 81px 27px 81px;
 	background-color: #abd373;
-	height: inherit; 
 }
 
 .purchasenow-heading{
@@ -281,6 +286,9 @@
 .detail-info p{
 	line-height: 24px;
 	color: #676e78;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 .read-more{
@@ -501,15 +509,4 @@
 	font-family: Lato;
 	font-size: 13px;
 	line-height: 28px;
-}
-
-
-
-
-/*media queries for max-width 1351*/
-@media only screen and (min-width: 1351px){
-	.services{
-		width: 40%;
-	}
-
 }
