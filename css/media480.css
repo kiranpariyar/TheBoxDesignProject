@@ -1,15 +1,71 @@
 @media (max-width:480px) {
 	
+	.header-content{
+		display: none;
+	}
+
+	.service-section{
+		padding-top: 50px;
+	}
+
+	.service-contents{
+		width: 80%;
+	}
+
 	.services{
 		width: 87%;
 	}
 
+	.service-heading{
+		font-size: 14px;
+		letter-spacing: 0px;
+		padding-left: 10px;
+	}
+
+	.service-detail p{
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.info-contents{
+		width: 80%;
+	}
+
 	.infos{
-		width: 50%;
+		width: 100%;
+		padding: 30px 0px;
+	}
+
+	.info-values{
+		font-size: 24px;
+		letter-spacing: 3px;
+		padding-top: 2px; 
+		padding-bottom:2px; 
+
+	}
+
+	.info-type{
+		font-size: 12px;
+		padding-top: 4px;
+		padding-bottom: 4px;
 	}
 
 	.purchase-now{
 		width: 100%;
+	}
+
+	.unlimited-colors, .customizable, .paralax-background{
+		padding: 43px 61px 7px 61px;
+	}
+
+	.purchasenow-heading{
+		padding:8px 0px;
+		font-size: 14px;
+	}
+
+	.purchasenow-paragraph p{
+		line-height: 18px;
+		font-size: 12px;
 	}
 
 	.footer-content{
