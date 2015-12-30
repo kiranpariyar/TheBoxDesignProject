@@ -1,4 +1,5 @@
 .logo{
+	width: 13.58974359%;
 	float: left;
 }
 
@@ -7,12 +8,13 @@
 }
 
 .headermenu-div{
+	width: 75.384615384%;
 	float: right;
 }
 
 .header-menu{
 	float: left;
-	padding-top: 6px;
+	padding-top: 8px;
 	padding-bottom: 6px;
 }
 
@@ -22,7 +24,7 @@
 
 .header-menu ul li{
 	display: inline-block;
-	padding: 0px 13px;
+	padding: 0px 12px;
 }
 
 .header-menu ul li a{
@@ -30,9 +32,9 @@
 	text-decoration: none;
 	text-align: center;
 	color: #ffffff;
-	font-size: 15px;
+	font-size: 16px;
 	/*padding: 8px 9px 9px 11px;*/
-	padding: 6px 9px 6px 8px;
+	padding: 7px 9px 6px 9px;
 	font-family: Lato;
 	font-weight: bold;
 	border:1px solid transparent;
@@ -40,39 +42,51 @@
 
 .header-menu ul li a:hover{
 	border:1px solid #ffffff;
-	border-radius:5px; 
 }
 
 .search-div{
+	width: 2.380952381%;
 	float: right;
-	padding-top:12px; 
+	padding-top:13px; 
+}
+
+.search-div img{
+	width: 100%;
+	height: auto;
 }
 
 .creativeimage-div{
-	background-color: rgba(192,192,192,0.1); 
+	width: 40.104166667%;
+	margin: auto;
+	background-color: rgba(192,192,192,0.1);
 }
 
 .creativeimage-div img{
-	display: block;
-	margin: auto;
+	width: 100%;
+}
+
+.arrow-left,.arrow-right{
+	width: 2.239583333%; 
+	position: absolute;
+	top:33.198380567%;
 }
 
 .arrow-left{
-	position: absolute;
-	font-size: 82px;
-	font-weight: normal;
-	color: #f7fbfb;
-	top:82px;
-	left: 100px; 
+	left: 5.208333333%;
 }
 
 .arrow-right{
-	position: absolute;
-	top:82px;
-	right: 100px;
-	font-size: 82px;
-	font-weight: normal;
-	color: #f7fbfb;
+	right: 5.208333333%;
+}
+
+.arrow-left img{
+	width: 100%;
+	height: auto;
+}
+
+.arrow-right img{
+	width: 100%;
+	height: auto;
 }
 
 .slider{
@@ -210,10 +224,10 @@
 	line-height: 50px;
 	color: #ffffff;
 	text-decoration: none;
-	border-radius:5px;
 	font-family: Lato;
 	font-weight: bold;
 }
+
 
 .sales-content{
 	width: 100%;
@@ -231,22 +245,32 @@
 	left: 33.333333333%;
 	top: 0px;
 	text-align: center;
-	padding: 180px 0px 152px 0px;
+	padding: 186px 0px 152px 0px;
 }
 
 .large-heading{
 	padding: 15px 0px;
 	color: #ffffff;
 	font-family: Lato;
-	font-size: 28px;
+	font-size: 31px;
 }
 
 .small-heading{
 	padding: 2px 0px;
 	color: #ffffff;
 	font-family: Lato;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
+}
+
+/*.purchase-link{
+	width: 200px;
+	margin: auto;
+	padding: 48px 0px;
+}
+*/
+.purchase-link img{
+	width: 100%
 }
 
 .purchase-link{
@@ -257,12 +281,11 @@
 	line-height: 60px;
 	font-family: Lato;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
 	text-decoration: none;
 	color: #2e3e4d;
-	padding: 20px 59px;
-	border:1px solid #ffffff;
-	border-radius: 5px; 
+	padding: 22px 59px;
+	border:1px solid #ffffff; 
 	background-color:#ffffff; 
 }
 
@@ -280,7 +303,13 @@
 }
 
 .thebox-logo{
+	width: 58.888888889%;
 	padding: 22px 0px;
+}
+
+.thebox-logo img{
+	width: 100%;
+	height: auto;
 }
 
 .detail-info p{
@@ -292,8 +321,18 @@
 }
 
 .read-more{
+	width: 100%;
 	padding: 25px 0px 30px 0px;
 	border-bottom: 1px solid #25323b;
+}
+
+.readmore-link{
+	width: 33.333333333%;
+}
+
+.read-more img{
+	width: 100%;
+	height: auto;
 }
 
 .followus{
@@ -315,7 +354,13 @@
 }
 
 .followus-image{
+	width: 22.222222222%;
 	float: left;
+}
+
+.followus-image img{
+	width: 100%;
+	height:auto;
 }
 
 .followus-on{
@@ -361,6 +406,12 @@
 .latestnews-image{
 	float: left;
 	min-height: inherit;
+	width: 18.518518519%;
+}
+
+.latestnews-image img{
+	width: 100%;
+	height: auto;
 }
 
 .latestnews-info{
@@ -373,13 +424,27 @@
 	font-family: Lato;
 	font-weight: bold;
 	font-size: 16px;
-	color: #a4b8c1;
 	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+.latestnews-title a{
+	text-decoration: none;
+	color: #a4b8c1;
+}
+
+
+.latestnews-title a:hover{
+	color: #ffffff;
 }
 
 .latestnews-detail p{
 	line-height: 24px;
 	color: #676e78;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 14px;
+
 }
 
 .latestnews-detail .date{
@@ -420,7 +485,6 @@
 	text-decoration: none;
 	border: 1px solid #a0b3ba;
 	color: #a0b3ba;
-	/*line-height: 40px;*/
 	font-family: Lato;
 	font-size: 15px;
 	font-weight: bold;
@@ -428,7 +492,8 @@
 
 .widgets-links ul li a:hover{
 	color: #ffffff;
-	background-color:#1bbc9b; 
+	background-color: #1bbc9b;
+	border-color: #1bbc9b; 
 }
 
 .usefullink-heading{
@@ -470,10 +535,9 @@
 	list-style-image: url(../images/whitebullet.png);
 }
 
-.border-none{
-	border: none;
+#li-border{
+	border: 0;
 }
-
 
 .contact-info{
 	padding: 82px 0px;
@@ -509,4 +573,8 @@
 	font-family: Lato;
 	font-size: 13px;
 	line-height: 28px;
+}
+
+.border-none{
+	border-bottom: 0;
 }

@@ -1,4 +1,4 @@
-@media (max-width:480px) {
+@media (max-width:600px) {
 	
 	.header-content{
 		display: none;
@@ -20,6 +20,10 @@
 		font-size: 14px;
 		letter-spacing: 0px;
 		padding-left: 10px;
+	}
+
+	.service-icon{
+		padding-top: 7px; 
 	}
 
 	.service-detail p{
@@ -68,7 +72,46 @@
 		font-size: 12px;
 	}
 
+	.sales-galary img{
+		height: 300px; 
+	}
+
+	.creative-site{
+		padding-top: 60px;
+		width: 50%;
+		left: 25%;
+	}
+
+	.large-heading{
+		padding: 8px 0px;
+		font-size: 20px;
+	}
+
+	.small-heading{
+		font-size: 14px;
+		padding: 0px;
+	}
+
+
+	.purchase-link{
+		padding: 15px 0px;
+	}
+
+	.purchase-link a{
+	    line-height: 60px;
+	    font-size: 16px;
+	    padding: 14px 40px;
+	}    
+
+	.left-footer{
+		width: 100%;
+	}
+
+	.right-footer{
+		width: 100%;
+	}
+
 	.footer-content{
-		width: 89%;
+		width: 87%;
 	}
 }

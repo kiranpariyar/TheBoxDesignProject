@@ -1,0 +1,122 @@
+@media (max-width:900px) {
+
+	.header-content{
+		width: 100%;
+		display: none;
+	}
+	
+	.service-contents{
+		width: 80%;
+	}
+	
+	.services{
+		width: 90%;
+	}
+
+	.service-heading{
+		font-size: 16px;
+		letter-spacing: 2px;
+		padding-left: 10px;
+	}
+
+	.service-detail p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.info-contents{
+		width: 80%;
+	}
+
+	.infos{
+		padding: 30px 0px;
+	}
+
+	.info-values{
+		font-size: 24px;
+		letter-spacing: 3px;
+		padding-top: 2px; 
+		padding-bottom:2px; 
+
+	}
+
+	.info-type{
+		font-size: 12px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.purchase-now{
+		width: 100%;
+	}
+
+	.unlimited-colors, .customizable, .paralax-background{
+		padding: 43px 61px 7px 61px;
+	}
+
+	.purchasenow-heading{
+		padding:14px 0px;
+		font-size: 14px;
+	}
+
+	.purchasenow-paragraph p{
+		line-height: 18px;
+		font-size: 12px;
+	}
+
+	.purchasenow-button{
+		font-size: 14px; 
+		padding: 25px 0px;
+	}
+
+	.purchasenow-button a{
+		padding: 16px 24px;
+		line-height: 40px;
+	}
+
+	.sales-galary img{
+		height: 300px; 
+	}
+
+	.creative-site{
+		padding-top: 80px;
+		width: 60%;
+		left: 20%;
+	}
+
+	.large-heading{
+		padding: 12px 0px;
+		font-size: 22px;
+	}
+
+	.small-heading{
+		font-size: 12px;
+		padding: 0px;
+	}
+
+	.purchase-link{
+		padding: 15px 0px;
+	}
+
+	.purchase-link a{
+	    line-height: 60px;
+	    font-size: 16px;
+	    padding: 14px 40px;
+	}    
+
+	.main-footer{
+		width: 80%;
+	}
+
+	.left-footer{
+		width: 100%;
+	}
+
+	.right-footer{
+		width: 100%;
+	}
+
+	.footer-content{
+		width: 40%;
+	}
+}
