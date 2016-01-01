@@ -1,9 +1,4 @@
 @media (max-width:900px) {
-
-	.header-content{
-		width: 100%;
-		display: none;
-	}
 	
 	.service-contents{
 		width: 80%;
@@ -16,7 +11,7 @@
 	.service-heading{
 		font-size: 16px;
 		letter-spacing: 2px;
-		padding-left: 10px;
+		padding-left: 21px;
 	}
 
 	.service-detail p{
@@ -35,9 +30,6 @@
 	.info-values{
 		font-size: 24px;
 		letter-spacing: 3px;
-		padding-top: 2px; 
-		padding-bottom:2px; 
-
 	}
 
 	.info-type{
@@ -117,6 +109,11 @@
 	}
 
 	.footer-content{
-		width: 40%;
+		width: 45%;
 	}
+
+	.read-more{
+		padding: 15px 0px 20px 0px;
+	}
+
 }

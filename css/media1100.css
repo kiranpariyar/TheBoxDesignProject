@@ -1,0 +1,136 @@
+@media (max-width:1024px) {
+	
+	.service-contents{
+		width: 80%;
+	}
+
+	.services{
+		width: 46%;
+	}
+
+	.unlimited-colors, .customizable, .paralax-background{
+		padding: 35px 33px 15px 33px;
+	}
+
+
+	.purchasenow-heading{
+		padding:14px 0px;
+		font-size: 14px; 
+	}
+
+	.purchasenow-paragraph p{
+		line-height: 18px;
+		font-size: 12px;
+	}
+
+	.purchasenow-button{
+		font-family: Lato;
+		font-size: 14px; 
+		padding: 25px 0px;
+	}
+
+	.creative-site{
+		padding-top: 70px;
+	}
+
+	.large-heading{
+		padding: 10px 0px;
+		font-size: 18px;
+	}
+
+
+	.purchase-link{
+		padding: 25px 0px;
+	}
+
+	.main-footer{
+		width: 80%;
+	}    
+
+	.left-footer, .right-footer{
+		width: 100%;
+	}
+
+	.thebox-logo img{
+		width: 80%;
+	}
+
+	.latestnews-image img{
+		width: 80%;
+	}
+
+	.followus-image img{
+		width: 80%;
+	}
+
+	.detail-info p{
+		line-height: 22px;
+		font-size: 14px;
+	}
+
+	.followus-heading{
+		font-size: 14px;
+	}
+
+	.followus-medium{
+		font-size: 14px;
+	}
+
+	.latestnews-heading{
+		font-size: 22px;
+	}	
+
+	.latestnews-title{
+		font-size: 14px;
+	}
+
+	.latestnews-detail p{
+		line-height: 22px;
+		font-size: 14px;
+	}
+
+	.latestnews-detail .date{
+		font-size: 14px;
+	}
+
+	.tagswidgets-heading{
+		font-size: 22px;
+	}
+
+	.widgets-links ul li{
+		padding-bottom: 10px;
+		padding-right:10px; 
+	}
+
+	.widgets-links ul li a{
+		padding: 15px 8px;
+		font-size: 14px;
+	}
+
+	.usefullink-heading{
+		font-size: 22px;
+	}
+
+
+	.usefullink-heading{
+		font-size: 18px;
+		padding: 8px 0px;
+	}
+
+	.useful-links ul li a{
+		font-size: 14px;
+	}
+
+	.contactinfo-heading{
+		font-size: 22px;
+	}
+
+	.contactinfo-content .title{
+		font-size: 14px;
+	}
+
+	.contactinfo-content p{
+		font-size: 14px;
+	}
+
+}	

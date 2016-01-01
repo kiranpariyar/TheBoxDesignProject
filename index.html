@@ -6,8 +6,9 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/layout.css"> 
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/media1382.css">
-        <link rel="stylesheet" type="text/css" href="css/media1024.css">
+        <link rel="stylesheet" type="text/css" href="css/media1600.css">
+        <link rel="stylesheet" type="text/css" href="css/media1300.css">
+        <link rel="stylesheet" type="text/css" href="css/media1100.css">
         <link rel="stylesheet" type="text/css" href="css/media900.css">
         <link rel="stylesheet" type="text/css" href="css/media600.css">
     </head>
@@ -15,7 +16,7 @@
     <body>
         
         <div class="wrapper">  
-            <div class="header-slider-wrapper">
+            <!-- <div class="header-slider-wrapper"> -->
                 <div class="header-wrapper">
                     <div class="header-section">
                         <div class="header-content clearfix">
@@ -52,47 +53,49 @@
                         <div class="slider">
                             <div class="slider-long">
                                 <div class="slider-image">
-                                    <img src="images/firstbackground.png" alt="">
+                                    <img src="images/image1.png" alt="">
                                 </div>    
                                 <div class="slider-image">
-                                    <img src="images/creative-person.jpg" alt="">
+                                    <img src="images/image2.png" alt="">
                                 </div>
-                                <!-- <div class="slider-image">
-                                    <img src="images/creative-leaf.jpg" alt="">
+                                <div class="slider-image">
+                                    <img src="images/image3.png" alt="">
                                  </div>
- -->
+
                                  <div class="slider-image">
-                                     <img src="images/maxresdefault.jpg">
+                                     <img src="images/image4.png" alt="">
                                  </div>    
                             </div>
+                        </div>
+
+                        <div class="creativeimage-wrapper">
+                             <div class="creativeimage-section">
+                                <div class="arrow-left" id="previous" onclick="previous()">
+                                    <!-- &#10092; -->
+                                   <img src="images/leftarrow.png" alt="left">
+                                </div>
+
+                                <div class="creativeimage-div">
+                                    <img src="images/creativeimage.png" alt="creativeimage">
+                                </div>
+
+                                <div class="arrow-right" id="next" onclick="next()">
+                                    <!-- &#10093; -->
+                                    <img src="images/rightarrow.png" alt="right">
+                                </div>
+                            </div>    
                         </div>
                     </div> 
                 </div>
 
-                <div class="creativeimage-wrapper">
-                     <div class="creativeimage-section">
-                        <div class="arrow-left" id="previous" onclick="previous()">
-                            <!-- &#10092; -->
-                           <img src="images/leftarrow.png" alt="left">
-                        </div>
-
-                        <div class="creativeimage-div">
-                            <img src="images/creativeimage.png" alt="creativeimage">
-                        </div>
-
-                        <div class="arrow-right" id="next" onclick="next()">
-                            <!-- &#10093; -->
-                            <img src="images/rightarrow.png" alt="right">
-                        </div>
-                    </div>    
-                </div>
+                
              </div>
 
             <div class="service-wrapper">
                 <div class="service-section">
                     <div class="service-contents clearfix">
                         <div class="services">
-                            <div class="service-heading-section clearfix">
+                            <div class="clearfix">
                                 <div class="service-icon"><img src="images/teamprofile.png"></div>
 
                                 <div class="service-heading">
@@ -107,8 +110,8 @@
                         </div>
 
                         <div class="services">
-                            <div class="service-heading-section clearfix">
-                                <span class="service-icon"><img src="images/portfolio.png"></span>
+                            <div class="clearfix">
+                                <div class="service-icon"><img src="images/portfolio.png"></div>
 
                                 <div class="service-heading">
                                     <h2>AMAZING PORTFOLIO</h2>
@@ -120,8 +123,8 @@
                             </div>
                         </div>
                         <div class="services">
-                            <div class="service-heading-section clearfix">
-                                <span class="service-icon"><img src="images/blogdesign.png"></span>
+                            <div class="clearfix">
+                                <div class="service-icon"><img src="images/blogdesign.png"></div>
 
                                 <div class="service-heading">
                                     <h2>GREAT BLOG DESIGN</h2>
@@ -134,8 +137,8 @@
                         </div>
 
                         <div class="services">
-                            <div class="service-heading-section clearfix">
-                                <span class="service-icon"><img src="images/support.png"></span>
+                            <div class="clearfix">
+                                <div class="service-icon"><img src="images/support.png"></div>
 
                                 <div class="service-heading">
                                     <h2>AWESOME SUPPORT SERVICES</h2>
@@ -147,8 +150,8 @@
                             </div>
                         </div>
                         <div class="services">
-                            <div class="service-heading-section clearfix">
-                                <span class="service-icon"><img src="images/setting.png"></span>
+                            <div class="clearfix">
+                                <div class="service-icon"><img src="images/setting.png"></div>
 
                                 <div class="service-heading">
                                     <h2>EASY TO CUSTOMIZE</h2>
@@ -160,8 +163,8 @@
                             </div>
                         </div>
                         <div class="services">
-                            <div class="service-heading-section clearfix">
-                                <span class="service-icon"><img src="images/shortcodes.png"></span>
+                            <div class="clearfix">
+                                <div class="service-icon"><img src="images/shortcodes.png"></div>
 
                                 <div class="service-heading">
                                     <h2>FULL SHORTCODES READY</h2>
@@ -522,10 +525,7 @@
                                         <ul class="clearfix">
                                             <li><a href="#">awesome</a></li>
                                             <li><a href="#">beautiful</a></li>    
-                                            <li><a href="#">flat design</a></li>    
-                                        </ul>
-
-                                        <ul class="clearfix">
+                                            <li><a href="#">flat design</a></li>
                                             <li><a href="#">ios</a></li>   
                                             <li><a href="#">themforest</a></li>
                                             <li><a href="#">mass</a></li>
@@ -600,10 +600,11 @@
             </div>    
         </div>
 
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/animation.js"></script>
+        
+        <script type="text/javascript" src="js/Animator.js"></script>
+        <script type="text/javascript" src="js/Counter.js"></script>
         <script type="text/javascript" src="js/slider.js"></script>
-        <script type="text/javascript" src="js/counter.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
         
     </body>
 </html>
