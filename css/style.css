@@ -24,7 +24,7 @@
 
 .header-menu ul li{
 	display: inline-block;
-	padding: 0px 12px;
+	padding: 0px 11px;
 }
 
 .header-menu ul li a{
@@ -96,20 +96,23 @@
 }
 
 .slider-long{
-	width: 300%;
+	width: 400%;
 }
 
 .slider-image{
-	width: 33.333333333%;
+	width: 25%;
 	float: left;
 }
 
 .slider-image img{
 	width: 100%;
-	height: auto;
+	/*height: auto;*/
+	height: 100%;
 }
 
+
 .service-icon{
+	width: 10.989010989%;
 	float: left;
 }
 
@@ -153,6 +156,7 @@
 
 .info-values{
 	font-family: Lato;
+	font-weight: normal;
 	font-size: 37px;
 	letter-spacing: 6px;
 	color: #ffffff;
@@ -202,14 +206,14 @@
 	padding:14px 0px;
 	font-family: Lato;
 	font-size: 18px;
-	font-weight: 700; 
+	font-weight: bold; 
 }
 
 .purchasenow-paragraph p{
 	line-height: 24px;
 	font-family: Lato;
 	font-size: 14px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .purchasenow-button{
@@ -252,6 +256,7 @@
 	padding: 15px 0px;
 	color: #ffffff;
 	font-family: Lato;
+	font-weight: normal; 
 	font-size: 31px;
 }
 
@@ -263,12 +268,10 @@
 	font-weight: bold;
 }
 
-/*.purchase-link{
-	width: 200px;
-	margin: auto;
-	padding: 48px 0px;
+.large-heading strong{
+	font-weight: bold;
 }
-*/
+
 .purchase-link img{
 	width: 100%
 }
@@ -417,7 +420,8 @@
 .latestnews-info{
 	width: 74.074074074%;
 	float: right;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
+	padding-left: 7.407407407%;
 }
 
 .latestnews-title{
@@ -573,6 +577,7 @@
 	font-family: Lato;
 	font-size: 13px;
 	line-height: 28px;
+	font-weight: bold;
 }
 
 .border-none{
